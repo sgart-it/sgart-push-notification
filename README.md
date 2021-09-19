@@ -29,11 +29,15 @@ per il debug aprire 3 console
 3. npm run send "ciao sgart"
 
 # note 
+Le notifiche push sono supportate in tutti i moderni browser Chrome, Firefox Edge Chromium, ... (non funzionano su Internet Explorer e il vecchio Edge)
+
 Il sito deve girare in https
 
 Le notifiche push NON sempre vengono inviate a localhost o 127.0.0.1
 
 Il database è basato su sqlite e viene creato al primo avvio
+
+sviluppato con node js v14.17.6
 
 ## send
 npm run send "messaggio" invia le notifiche push ai dispositivi registrati
