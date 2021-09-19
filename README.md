@@ -1,6 +1,8 @@
 # sgart-push-notification
 Demo notifiche push in JavaScript (Push API)
 
+https://www.sgart.it/IT/informatica/notifiche-push-nel-browser-push-api/post
+
 # setup
 eseguire: **npm install**
 
