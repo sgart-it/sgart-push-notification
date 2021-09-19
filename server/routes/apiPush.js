@@ -11,10 +11,10 @@ router.get('/public-key', function (req, res, next) {
   });
 });
 
-router.get('/generate-keys', function (req, res, next) {
+/*router.get('/generate-keys', function (req, res, next) {
   const vapidKeys = webpush.generateVAPIDKeys()
   res.json(vapidKeys);
-});
+});*/
 
 // salva la registrazione su DB
 router.post('/registration', async function (req, res) {
