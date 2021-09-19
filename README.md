@@ -5,9 +5,11 @@ Demo notifiche push in JavaScript (Push API)
 eseguire: **npm install**
 
 ## chiave pubblica e privata
-Per generare le chiavi pubblica e privata: **npm run keys**
+Per generare le chiavi pubblica e privata digita: **npm run keys**
 
-sostituire i valori in **settings.json**
+rinomina il file **settings-to-rename.json** in **settings.json**
+
+sostituisci i valori in **settings.json**
 {
     "database": {
         "filename":"/database/sgart-push.db"

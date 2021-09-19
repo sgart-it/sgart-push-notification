@@ -1,0 +1,9 @@
+{
+    "database": {
+        "filename":"/database/sgart-push.db"
+    },
+    "push": {
+        "publicKey":"<publicKey>",
+        "privateKey":"<privateKey>"
+    }
+}
