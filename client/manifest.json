@@ -1,0 +1,25 @@
+{
+    "background_color": "#ffffff",
+    "categories": [
+        "demo"
+    ],
+    "description": "Test notifiche push.",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "/images/icons/sgart-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/icons/sgart-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "name": "Notifiche Push - Sgart.it",
+    "short_name": "Sgart Push",
+    "start_url": "/index.html",
+    "theme_color": "#ffffff",
+    "scope": "/"
+}

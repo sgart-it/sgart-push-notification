@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html class="no-js" dir="ltr" loc="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover"/>
+    <title>Notifiche Push - Sgart.it</title>
+    <meta name="description" content="Test notifiche push." />
+    <link rel="manifest" href="/manifest.json" crossorigin="use-credentials" />
+    <link
+      id="favicon"
+      rel="shortcut icon"
+      href="favicon.png"
+      type="image/png"
+    />
+    <link rel="apple-touch-icon" sizes="192x192" href="/icon-ios-192.png"/>
+    <meta name="mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-title" content="Twitter"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="white"/>
+    <meta name="theme-color" content="#ffffff"/>
+    <style>
+      body,
+      html {
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+      }
+    </style>
+    <link href="/css/style.css" rel="stylesheet" />
+  </head>
+  <body class="web">
+    <h1>Demo push notification</h1>
+
+    <div id="app"></div>
+
+    <p>
+      <button type="button" id="btn-push-unsubscribe">Unsubscribe</button>
+    </p>
+
+    <script src="/js/register-service-worker.js"></script>
+  </body>
+</html>

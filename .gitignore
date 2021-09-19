@@ -1,3 +1,7 @@
+# custom
+database/*.db
+settings.json
+
 # Logs
 logs
 *.log
